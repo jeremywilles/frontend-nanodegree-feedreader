@@ -4,9 +4,13 @@
  * Feed Reader API to grab RSS feeds as JSON object we can make
  * use of. It also uses the Handlebars templating library and
  * jQuery.
+
+ 
  */
 
 // The names and URLs to all of the feeds we'd like available.
+
+
 var allFeeds = [
     {
         name: 'Udacity Blog',
@@ -22,6 +26,7 @@ var allFeeds = [
         url: 'http://feeds.feedburner.com/udacity-linear-digressions'
     }
 ];
+
 
 /* This function starts up our application. The Google Feed
  * Reader API is loaded asynchonously and will then call this
